@@ -68,10 +68,10 @@ G['Лондон']['Париж']['weight'] = 461
 G['Лондон']['Мадрид']['weight'] = 1721
 G['Мадрид']['Париж']['weight'] = 1275
 
-# Запуск рекурсивного алгоритму BFS
-print('Aлгоритм BFS (Breadth-first search):')
+# Алгоритм BFS (рекурсивно)
+print('Breadth-first search (BFS):')
 bfs_recursive(G, deque(['Київ']))
 print()
-# Запуск рекурсивного алгоритму DFS
-print('Aлгоритм DFS (Depth-first search):')
+# Алгоритм DFS (рекурсивно)
+print('Depth-first search (DFS):')
 dfs_recursive(G, 'Київ')
